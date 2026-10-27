@@ -89,8 +89,8 @@ MainFrame_1.AnchorPoint = Vector2.new(0.05000000074505806, 0.05000000074505806)
 MainFrame_1.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
 MainFrame_1.Name = "MainFrame"
 MainFrame_1.Parent = CAGPLUS_1
-MainFrame_1.Position = UDim2.new(0.025320718064904213, 0, 0.08754868805408478, 0)
-MainFrame_1.Size = UDim2.new(0.37216120958328247, 0, 0.36446166038513184, 0)
+MainFrame_1.Position = UDim2.new(0.3712861239910126, 0, 0.3565046489238739, 0)
+MainFrame_1.Size = UDim2.new(0.2597693204879761, 0, 0.347989559173584, 0)
 MainFrame_1.Selectable = false
 
 UICorner_1.Parent = MainFrame_1
@@ -547,7 +547,7 @@ TextLabel_11.TextSize = 14
 TextLabel_11.TextStrokeTransparency = 0
 TextLabel_11.TextWrapped = true
 
-local function Cd6ba4440784046f1aeaef5b31fa54d6()
+local function C6a28bac9e7a242ae8617fb3f7c433eb()
 local script = Instance.new("LocalScript", TextButton_1)
 local button_fly = script.Parent
 
@@ -659,9 +659,9 @@ player.CharacterAdded:Connect(function()
 end)
 end
 
-coroutine.wrap(Cd6ba4440784046f1aeaef5b31fa54d6)()
+coroutine.wrap(C6a28bac9e7a242ae8617fb3f7c433eb)()
 
-local function Cd4a2d89c57bd4cd5ae486758997aefd()
+local function Cb52332e3dcf44db18f2d39773f3e5c0()
 local script = Instance.new("LocalScript", TextButton_2)
 local button_jump = script.Parent
 
@@ -697,9 +697,9 @@ player.CharacterAdded:Connect(function(character)
 end)
 end
 
-coroutine.wrap(Cd4a2d89c57bd4cd5ae486758997aefd)()
+coroutine.wrap(Cb52332e3dcf44db18f2d39773f3e5c0)()
 
-local function Cde093f493daa4854b6bd92c72e3f3a2()
+local function Cd79b843868f24b06a56dc2cf228beda()
 local script = Instance.new("LocalScript", TextButton_3)
 
 local framerems = script.Parent.Parent.Parent.Rems
@@ -709,9 +709,9 @@ script.Parent.MouseButton1Click:Connect(function()
 end)
 end
 
-coroutine.wrap(Cde093f493daa4854b6bd92c72e3f3a2)()
+coroutine.wrap(Cd79b843868f24b06a56dc2cf228beda)()
 
-local function C3557c72c368e4aebb2e7fb3dd6df8a4()
+local function C3dbd0419d15f47a68b76ca968825370()
 local script = Instance.new("LocalScript", Rems_1)
 local f = script.Parent
 local loc, num, btn = f.Location, f.NumberCalls, f.SendButton
@@ -736,9 +736,9 @@ btn.MouseButton1Click:Connect(function()
 end)
 end
 
-coroutine.wrap(C3557c72c368e4aebb2e7fb3dd6df8a4)()
+coroutine.wrap(C3dbd0419d15f47a68b76ca968825370)()
 
-local function Cea0111b4917e4dd8a9151ebf21d314a()
+local function Cfd903c38f7a247b1b0812a2fb9292eb()
 local script = Instance.new("LocalScript", Rems_1)
 
 local frameHowtoDraggable = script.Parent
@@ -786,9 +786,9 @@ game:GetService("UserInputService").InputChanged:Connect(function(input)
 end)
 end
 
-coroutine.wrap(Cea0111b4917e4dd8a9151ebf21d314a)()
+coroutine.wrap(Cfd903c38f7a247b1b0812a2fb9292eb)()
 
-local function C402dc96840604c2c98e61e815b2fd0a()
+local function C1db3dd6360fb472fb0e534f2b3aef6d()
 local script = Instance.new("LocalScript", UIStroke_6)
 local RunService = game:GetService("RunService")
 
@@ -801,9 +801,9 @@ RunService.RenderStepped:Connect(function()
 end)
 end
 
-coroutine.wrap(C402dc96840604c2c98e61e815b2fd0a)()
+coroutine.wrap(C1db3dd6360fb472fb0e534f2b3aef6d)()
 
-local function Ce304bb521f8f428583ea7b76903b44c()
+local function C0187af9c0c384eddbabc45170413625()
 local script = Instance.new("LocalScript", X_1)
 
 local frame = script.Parent.Parent
@@ -813,9 +813,9 @@ script.Parent.MouseButton1Click:Connect(function()
 end)
 end
 
-coroutine.wrap(Ce304bb521f8f428583ea7b76903b44c)()
+coroutine.wrap(C0187af9c0c384eddbabc45170413625)()
 
-local function C3531d659a79440ceb384e3070a24dc6()
+local function C647e0f7c2af0469e985c431f0c6b451()
 local script = Instance.new("LocalScript", TextButton_4)
 
 
@@ -832,4 +832,4 @@ else
 end)
 end
 
-coroutine.wrap(C3531d659a79440ceb384e3070a24dc6)()
+coroutine.wrap(C647e0f7c2af0469e985c431f0c6b451)()
